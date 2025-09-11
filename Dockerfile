@@ -1,6 +1,6 @@
 FROM mockserver/mockserver:latest
 
-ARG PORT=1080
+ARG PORT
 ENV PORT=${PORT}
 EXPOSE ${PORT}
 
