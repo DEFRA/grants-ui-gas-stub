@@ -8,4 +8,4 @@ COPY expectations.json /config/expectations.json
 
 ENV MOCKSERVER_INITIALIZATION_JSON_PATH=/config/expectations.json
 
-CMD ["-serverPort", "1080", "-logLevel", "INFO"]
+CMD ["-serverPort", "${PORT}", "-logLevel", "INFO"]
