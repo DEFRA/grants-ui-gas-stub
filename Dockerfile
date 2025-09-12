@@ -11,4 +11,4 @@ ENV MOCKSERVER_SERVER_PORT=${PORT}
 ENV SERVER_PORT=${PORT}
 ENV MOCKSERVER_INITIALIZATION_JSON_PATH=/config/expectations.json
 
-CMD ["-logLevel", "INFO"]
+CMD ["-logLevel", "INFO", "-serverPort", "8085"]
